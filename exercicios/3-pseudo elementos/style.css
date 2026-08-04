@@ -1,0 +1,24 @@
+a{
+    color: rgb(15, 15, 131);
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited{
+    color: rgb(81, 7, 81);
+}
+a:hover{
+    text-decoration:  underline;
+    color: blueviolet;
+}
+a:active{
+    color: blue;
+}
+.especial::before{
+    content:'⇒';
+}
+.especial::after{
+    content: '⇐';
+}
+.especial{
+    background-color:#A7A662
+}
